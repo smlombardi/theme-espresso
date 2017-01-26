@@ -208,7 +208,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#c0c5ce</string>
+                    <string>#D24493</string>
                 </dict>
             </dict>
             <dict>
@@ -220,6 +220,17 @@
                 <dict>
                     <key>foreground</key>
                     <string>#ce7827</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Keyword Operator Assignment</string>
+                <key>scope</key>
+                <string>keyword.operator.assignment.js</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#434343</string>
                 </dict>
             </dict>
             <dict>
@@ -241,7 +252,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#e1a170</string>
+                    <string>#A45F2A</string>
                 </dict>
             </dict>
             <dict>
@@ -265,7 +276,7 @@
                     <key>background</key>
                     <string>#FFFDF7</string>
                     <key>foreground</key>
-                    <string>#BA671F</string>
+                    <string>#ce670a</string>
                 </dict>
             </dict>
             <dict>
@@ -327,13 +338,12 @@
                 <string>_this</string>
                 <key>scope</key>
                 <string>
-                    variable.other.readwrite.js,
                     variable.other.object.js
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#A6B090</string>
+                    <string>#7DB011</string>
                 </dict>
             </dict>
             <dict>
@@ -358,7 +368,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#759F9E</string>
+                    <string>#20807F</string>
                 </dict>
             </dict>
             <dict>
@@ -1364,7 +1374,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C0B27D</string>
+                    <string>#DFB726</string>
                 </dict>
             </dict>
             <!-- JSON -->

@@ -19,7 +19,7 @@
         "themes": [
             {
                 "label": "Espresso",
-                "uiTheme": "vs-light",
+                "uiTheme": "vs",
                 "path": "./themes/Espresso.tmTheme"
             }
         ]

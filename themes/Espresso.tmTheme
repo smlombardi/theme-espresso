@@ -34,7 +34,7 @@
                     <key>foreground</key>
                     <string>#434343</string>
                     <key>invisibles</key>
-                    <string>#CCCCCC</string>
+                    <string>#eaeaea</string>
                     <key>lineHighlight</key>
                     <string>#eeeeee</string>
                     <key>selection</key>
@@ -276,7 +276,7 @@
                     <key>background</key>
                     <string>#FFFDF7</string>
                     <key>foreground</key>
-                    <string>#ce670a</string>
+                    <string>#B0723C</string>
                 </dict>
             </dict>
             <dict>
@@ -1054,121 +1054,6 @@
                 </dict>
             </dict>
 
-            <!-- php -->
-            <dict>
-                <key>name</key>
-                <string>PHP delimiters</string>
-                <key>scope</key>
-                <string>
-                    punctuation.section.embedded.begin.php,
-                    punctuation.section.embedded.end.php,
-                    punctuation.section.embedded.begin.metatag.php,
-                    punctuation.section.embedded.end.metatag.php
-                </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#CC7832</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Regular Expressions</string>
-                <key>scope</key>
-                <string>string.regexp</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#96b5b4</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>PHPdoc Comments</string>
-                <key>scope</key>
-                <string>
-                    meta.block.embedded.php.source.comment.documentation.phpdoc
-                </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#ACB5B5</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Escape Characters</string>
-                <key>scope</key>
-                <string>
-                    constant.character.escape
-                </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#96b5b4</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Embedded</string>
-                <key>scope</key>
-                <string>
-                    punctuation.section.embedded, 
-                    variable.interpolation
-                </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#9975ab</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>PHP booleans</string>
-                <key>scope</key>
-                <string>
-                    meta.tag.any.html.string.quoted.double.embedded.line.php.source.constant.language.inline,
-                    meta.embedded.line.php.source.constant.language
-                </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#AB6767</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>PHP Numbers</string>
-                <key>scope</key>
-                <string>constant.numeric.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#6696bd</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>PHP Line Terminator</string>
-                <key>scope</key>
-                <string>punctuation.terminator.expression.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#CC7832</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>PHP Control Keywords</string>
-                <key>scope</key>
-                <string>keyword.control.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#AB6767</string>
-                </dict>
-            </dict>
             <!-- invalid -->
             <dict>
                 <key>name</key>
@@ -1344,7 +1229,8 @@
                     brace.type.square,
                     punctuation.decorator.objectliteral.object.member.accessor,
                     punctuation.section.property-list,
-                    meta.property-list.scss
+                    meta.property-list.scss,
+                    punctuation.section.array
                 </string>
                 <key>settings</key>
                 <dict>
@@ -1377,6 +1263,141 @@
                     <string>#DFB726</string>
                 </dict>
             </dict>
+            
+            <!-- php -->
+            <dict>
+                <key>name</key>
+                <string>PHP delimiters</string>
+                <key>scope</key>
+                <string>
+                    punctuation.section.embedded.begin.php,
+                    punctuation.section.embedded.end.php,
+                    punctuation.section.embedded.begin.metatag.php,
+                    punctuation.section.embedded.end.metatag.php,
+                    meta.embedded.block.php punctuation.section.embedded.end.metatag.php source.php,
+                    meta.embedded.line.php punctuation.section.embedded.end.metatag.php source.php
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#47A01B</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Regular Expressions</string>
+                <key>scope</key>
+                <string>string.regexp</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#589694</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Base code</string>
+                <key>scope</key>
+                <string>
+                    meta.embedded.block.php source.php,
+                    keyword.operator.string.php,
+                    meta.embedded.line.php source.php,
+                    keyword.operator.assignment.php
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#434343</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>PHPdoc Comments</string>
+                <key>scope</key>
+                <string>
+                    meta.block.embedded.php.source.comment.documentation.phpdoc
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#ACB5B5</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Escape Characters</string>
+                <key>scope</key>
+                <string>
+                    constant.character.escape
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#557877</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Embedded</string>
+                <key>scope</key>
+                <string>
+                    punctuation.section.embedded, 
+                    variable.interpolation
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#9975ab</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>PHP booleans</string>
+                <key>scope</key>
+                <string>
+                    meta.tag.any.html.string.quoted.double.embedded.line.php.source.constant.language.inline,
+                    meta.embedded.line.php.source.constant.language
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#AB6767</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>PHP Function Call</string>
+                <key>scope</key>
+                <string>meta.function-call.php</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#0A5AB7</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>PHP Control Keywords</string>
+                <key>scope</key>
+                <string>keyword.control.php</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#AB3E3E</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>PHP Control Keywords</string>
+                <key>scope</key>
+                <string>support.function.construct.output.php</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#3D79BD</string>
+                </dict>
+            </dict>
+
             <!-- JSON -->
             <dict>
                 <key>name</key>
@@ -1469,7 +1490,8 @@
                     meta.tag.inline.any.html entity.other.attribute-name.html,
                     meta.tag.other.html entity.other.attribute-name.html,
                     source.js.embedded.html entity.other.attribute-name.html,
-                    meta.tag.structure.any.html entity.other.attribute-name.html
+                    meta.tag.structure.any.html entity.other.attribute-name.html,
+                    meta.tag.block.any.html
                 </string>
                 <key>settings</key>
                 <dict>

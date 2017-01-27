@@ -5,13 +5,13 @@ Optimized for SCSS, HTML, PHP, and JS files.
 
 
 ### HTML
-![Screenshot](https://github.com/smlombardi/theme-espresso/tree/master/screenshots/html.png)
+![Screenshot](https://github.com/smlombardi/theme-espresso/raw/master/screenshots/html.png)
 
 ### SCSS
-![Screenshot](https://github.com/smlombardi/theme-espresso/tree/master/screenshots/scss.png)
+![Screenshot](https://github.com/smlombardi/theme-espresso/raw/master/screenshots/scss.png)
 
 ### JS
-![Screenshot](https://github.com/smlombardi/theme-espresso/tree/master/screenshotsjs.png)
+![Screenshot](https://github.com/smlombardi/theme-espresso/raw/master/screenshots/js.png)
 
 ### PHP
-![Screenshot](https://github.com/smlombardi/theme-espresso/tree/master/screenshots/php.png)
+![Screenshot](https://github.com/smlombardi/theme-espresso/raw/master/screenshots/php.png)

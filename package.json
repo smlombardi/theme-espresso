@@ -1,6 +1,6 @@
 {
     "name": "theme-espresso",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "publisher": "smlombardi",
     "displayName": "Espresso Syntax Theme",
     "description": "Based on the default theme from the Espresso editor",
@@ -14,7 +14,7 @@
     "categories": [
         "Themes"
     ],
-    "icon": "icon.png",
+    "icon": "icon.svg",
     "contributes": {
         "themes": [
             {
